@@ -1,0 +1,93 @@
+/* Seletor Universal (Opcional, usado para resetar margens) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seletor de Elemento (body) - Define a fonte principal e as cores de fundo/texto */
+body {
+    font-family: 'Roboto', sans-serif; /* Primeira fonte (externa) */
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Cor de fonte escura para bom contraste */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Seletor de ID - Estiliza o cabeçalho principal */
+#cabecalho {
+    background-color: #004d40; /* Cor de fundo escura para o cabeçalho */
+    color: #ffffff; /* Cor de fonte clara */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Seletor de Classe - Estiliza todas as seções principais do currículo */
+.secao {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Seletores de Elemento (h1, h2) */
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif; /* Segunda fonte (externa) */
+    color: #004d40;
+    border-bottom: 2px solid #004d40;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-decoration: underline; /* Decoração de texto */
+}
+
+/* Seletor de Classe (para os períodos de experiência) */
+.periodo {
+    font-style: italic; /* Estilo de fonte: itálico */
+}
+
+/* Seletor de Classe (para o subtítulo) */
+.subtitulo {
+    font-weight: bold; /* Estilo de fonte: negrito */
+}
+
+/* Seletor de Atributo - Remove o sublinhado de links que abrem em nova aba */
+a[target="_blank"] {
+    font-weight: bold;
+}
+
+/* Seletor de Pseudoclasse - Muda a cor do link ao passar o mouse */
+a:hover {
+    color: #ff9800; /* Nova cor ao passar o mouse */
+}
+
+/* Estilização geral dos links */
+a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+#cabecalho a {
+    color: #b2dfdb; /* Cor de link específica para o cabeçalho */
+}
+
+.contato .material-icons {
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+ul, dl {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
